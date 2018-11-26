@@ -14,7 +14,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* React Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project-card" shadow={5}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -38,7 +38,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* React Project 2*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project-card" shadow={5}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -62,7 +62,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/* React Project 3*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project-card" shadow={5}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -91,7 +91,7 @@ class Projects extends Component {
       return (
         <div>
           {/* Unity Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project-card" shadow={5}>
             <CardTitle
               style={{
                 color: "grey",
@@ -120,7 +120,7 @@ class Projects extends Component {
       return (
         <div>
           {/* Java Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project-card" shadow={5}>
             <CardTitle
               style={{
                 color: "black",

@@ -36,16 +36,18 @@
 
 .banner-text {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.6;
   width: 75%;
   margin: auto;
   border-radius: 10px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 55px;
   font-weight: bold;
   color: white;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .banner-text hr {
@@ -62,7 +64,8 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
@@ -87,8 +90,8 @@
 }
 
 .contact-grid {
-  text-align: center;
   justify-content: center;
+  text-align: center;
   width: 80%;
   height: 550px;
   background: white;

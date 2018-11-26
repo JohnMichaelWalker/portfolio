@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
-          <Cell col={6}>
+          <Cell className="contact-left" col={6}>
             <h2>John Michael Walker</h2>
             <img
               src="https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Penguin-512.png"

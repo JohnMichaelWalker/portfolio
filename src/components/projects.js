@@ -37,7 +37,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
           {/* React Project 2*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -62,7 +61,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
           {/* React Project 3*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -161,7 +159,7 @@ class Projects extends Component {
 
         <Grid>
           <Cell col={12}>
-            <div className="content" /> {this.toggleCategories()}{" "}
+            <div className="content" /> {this.toggleCategories()}
           </Cell>
         </Grid>
       </div>

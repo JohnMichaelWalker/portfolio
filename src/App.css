@@ -132,11 +132,17 @@
   font-family: Anton;
 }
 
-/* Resume Page Css */
+/* Resume Page CSS */
 .resume-right-col {
   background: #27221f;
   color: white;
   padding: 2em;
+}
+
+/* Contact Page CSS */
+.contact-left {
+  font-size: 50px;
+  background: #b10dc9;
 }
 
 @media (max-width: 720px) {
